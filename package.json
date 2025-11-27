@@ -1,0 +1,14 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.17",
+    "animejs": "^4.2.2",
+    "daisyui": "^5.5.5",
+    "tailwindcss": "^4.1.17"
+  },
+  "scripts": {
+    "build:css": "npx tailwindcss -i app.css -o public/output.css"
+  }
+}
